@@ -2,6 +2,7 @@
 
 ## remote redis + local datastore emulator
 
+```
 goos: linux
 goarch: amd64
 pkg: rediscachebench
@@ -13,9 +14,11 @@ BenchmarkGetMultiByMercariRedisCache-8       	      63	  16707716 ns/op
 BenchmarkGetMultiByJuntakiRedisCache-8       	      72	  16919890 ns/op
 PASS
 ok  	rediscachebench	16.747s
+```
 
 ## local redis + local datastore emulator
 
+```
 goos: linux
 goarch: amd64
 pkg: rediscachebench
@@ -27,3 +30,4 @@ BenchmarkGetMultiByMercariRedisCache-8       	    8868	    254791 ns/op
 BenchmarkGetMultiByJuntakiRedisCache-8       	    7587	    141707 ns/op
 PASS
 ok  	rediscachebench	12.085s
+```
